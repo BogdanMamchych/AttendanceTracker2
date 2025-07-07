@@ -1,0 +1,7 @@
+{
+  "languages": [
+    { "name": "Українська", "code": "uk" },
+    { "name": "Русский",     "code": "ru" },
+    { "name": "English",     "code": "en" }
+  ]
+}
