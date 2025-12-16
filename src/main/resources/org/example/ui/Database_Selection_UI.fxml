@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="135.0" prefWidth="326.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ui.Database_Selection_UI_controller">
+   <Label fx:id="titleLabel" alignment="CENTER" layoutY="1.0" prefHeight="19.0" prefWidth="326.0" text="%database_selection.title" />
+   <Button fx:id="backToSignIn" layoutX="14.0" layoutY="96.0" mnemonicParsing="false" onAction="#backToSignIn_pressed" prefHeight="25.0" prefWidth="300.0" text="%database_selection.back" />
+   <Button fx:id="connectMSSQL" layoutX="14.0" layoutY="27.0" mnemonicParsing="false" onAction="#connectMSSQL_pressed" prefHeight="25.0" prefWidth="300.0" text="%database_selection.MSSQL" />
+   <Button fx:id="connectPostgreSQL" layoutX="14.0" layoutY="61.0" mnemonicParsing="false" onAction="#connectPostgreSQL_pressed" prefHeight="25.0" prefWidth="300.0" text="%database_selection.PostgreSQL" />
+</AnchorPane>
